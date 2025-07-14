@@ -1,0 +1,103 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #eccec6 0%, #c5e8b7 50%, rgb(118, 118, 227) 30%, #dd9097 100% ); 
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  
+  #main {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  
+  #registrationForm {
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 480px;
+    flex: 1;
+  }
+  
+  form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+ 
+  #savedetails {
+    flex: 1;
+    
+    padding: 30px;
+    border-radius: 10px;
+    
+    max-width: 450px;
+    margin-top: 20px;
+  }
+  
+  .student-card {
+    background-color: #d2f1f1;
+    padding: 20px 30px;
+    margin-bottom: 15px;
+    border: 1px solid #1c1a1a;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .student-card p {
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  .delete-btn{
+    background-color: #dc3545;  
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .delete-btn:hover{
+    background-color: #c82333;
+  }
+  
